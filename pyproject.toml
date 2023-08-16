@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emg-gestures"
+version = "0.0.1"
+authors = {name = "Eitan Hemed", email = "eitan.hemed@gmail.com" }
+description = "Recognizing hand gestures from EMG signals"
+readme = "README.md"
+dependencies = [
+    "pandas>=2",
+    "sklearn>=1.3",
+]
+
+[project.optional-dependencies]
+juptyer = ["jupyternotebook>=7"]
+
+
