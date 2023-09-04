@@ -1,3 +1,7 @@
+# Files specific to this project
+input-data/
+EMG_data_for_gestures-master/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
